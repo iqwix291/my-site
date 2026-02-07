@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой первый сайт</title>
+    <style>
+        body {
+            /* Устанавливаем черный фон для контраста с желтым текстом */
+            background-color: #000; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Занимаем всю высоту экрана */
+            color: white; /* Цвет основного текста (если нужен) */
+        }
+        h1 {
+            /* Цвет заголовка - желтый */
+            color: yellow;
+        }
+        table {
+            /* Выравниваем таблицу по центру (если родитель не flex) */
+            margin: 20px auto; 
+            border: 1px solid white; /* Добавляем видимую границу для таблицы */
+            text-align: center; /* Выравнивание текста внутри ячейки по центру */
+            width: 300px; /* Опциональная ширина */
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Мой первый сайт</h1>
+
+    <!-- Таблица с текстом по середине экрана -->
+    <table>
+        <tr>
+            <td>
+                Мой первый сайт, созданный на HTML
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
